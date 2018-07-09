@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android2="http://schemas.android.com/apk/res/android"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:android="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/backup"
         android:icon="@drawable/ic_backup"
-        android:showAsAction="always"
-        android2:title="backup" />
+        android:title="backup"
+        app:showAsAction="always"/>
     <item
         android:id="@+id/more"
         android:icon="@drawable/ic_more"
-        android:showAsAction="always"
-        android2:title="more" />
+        android:title="more"
+        app:showAsAction="always"/>
 </menu>
