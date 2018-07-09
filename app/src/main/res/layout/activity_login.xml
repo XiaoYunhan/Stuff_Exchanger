@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.example.hans_xiao.stuff_exchanger.TitleLayout
@@ -9,30 +9,56 @@
 
     <EditText
         android:id="@+id/login_email"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:hint="Email"/>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:gravity="center"
+        android:hint="Email" />
+
     <EditText
         android:id="@+id/login_password"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:hint="Password"/>
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:gravity="center"
+        android:hint="Password" />
+
     <Button
         android:id="@+id/login_button"
-        android:layout_width="match_parent"
+        android:layout_width="274dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Log in"
-        android:textAllCaps="false"/>
-    <TextView
-        android:id="@+id/login_signup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp"
         android:gravity="center"
-        android:textSize="12sp"
+        android:text="Log in"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:gravity="center"
+        android:text="No account? Sign Up Now"
+        android:textAllCaps="false"
         android:textColor="#6e6f74"
-        android:layout_weight="1"
-        android:text="sign up now"/>
-</LinearLayout>
+        android:textSize="12sp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="244dp" />
+
+</RelativeLayout>

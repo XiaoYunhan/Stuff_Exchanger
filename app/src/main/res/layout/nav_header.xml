@@ -8,14 +8,14 @@
         android:id="@+id/icon_image"
         android:layout_height="70dp"
         android:layout_width="70dp"
-        android:src="@drawable/profile_icon"
+        android:src="@drawable/ic_profile"
         android:layout_centerInParent="true"/>
     <TextView
         android:id="@+id/mail"
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2028427786xyh@gmail.com"
+        android:text="xxxxxxx@gmail.com"
         android:textColor="#FFF"
         android:textSize="14sp"/>
     <TextView
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/mail"
-        android:text="Crowww"
+        android:text="User"
         android:textColor="#FFF"
         android:textSize="14sp"/>
 </RelativeLayout>

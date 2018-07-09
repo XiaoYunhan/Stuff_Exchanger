@@ -2,13 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:title="home"
-            android:icon="@drawable/nv_home" />
-        <item
-            android:id="@+id/suggested"
+            android:id="@+id/nav_suggested"
             android:title="suggested"
             android:icon="@drawable/nv_suggested"/>
+        <item
+            android:id="@+id/nav_list"
+            android:title="list"
+            android:icon="@drawable/nv_list" />
+        <item
+            android:id="@+id/nav_chat"
+            android:title="chat"
+            android:icon="@drawable/nv_chat"/>
         <item
             android:id="@+id/profile"
             android:title="profile"
