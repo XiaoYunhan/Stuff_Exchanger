@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "135648585471",
+    "firebase_url": "https://stuff-exchanger-45e16.firebaseio.com",
+    "project_id": "stuff-exchanger-45e16",
+    "storage_bucket": "stuff-exchanger-45e16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135648585471:android:215e74f4b3367934",
+        "android_client_info": {
+          "package_name": "com.example.hans_xiao.stuff_exchanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135648585471-vron7p36rks3u4hcqbp0f5eemvvtb1nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfeeHNAmd-zE3oTaQp29wXEbxuTzWP5G4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
