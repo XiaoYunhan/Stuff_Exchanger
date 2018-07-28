@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.hans_xiao.stuff_exchanger.TitleLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+
+    <Button
+        android:id="@+id/album_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="39dp"
+        android:gravity="center"
+        android:text="Choose from album"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/take_photo_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/album_button"
+        android:layout_marginStart="39dp"
+        android:gravity="center"
+        android:text="Take a photo"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="292dp"
+        android:layout_height="305dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</RelativeLayout>
