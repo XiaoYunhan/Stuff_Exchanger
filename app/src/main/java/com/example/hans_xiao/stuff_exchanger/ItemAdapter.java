@@ -42,19 +42,19 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder>{
             mContext = parent.getContext();
         }
         View view = LayoutInflater.from(mContext).inflate(R.layout.item, parent, false);
-        //final ViewHolder holder = new ViewHolder(view);
-        //holder.cardView.setOnClickListener(new View.OnClickListener() {
-            //@Override
-            //public void onClick(View v) {
-                //int position = holder.getAdapterPosition();
-                //Item item = mItemList.get(position);
-                //Intent intent = new Intent(mContext, ItemActivity.class);
-                //intent.putExtra(ItemActivity.ITEM_NAME, item.getName());
-                //intent.putExtra(ItemActivity.ITEM_IMAGE_ID, item.getImageId());
-                //mContext.startActivity(intent);
-            //}
-        //});
-        return new ViewHolder(view);
+        final ViewHolder holder = new ViewHolder(view);
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = holder.getAdapterPosition();
+                Item item = mItemList.get(position);
+                Intent intent = new Intent(mContext, Itemgallery.class);
+                intent.putExtra(Itemgallery.ITEM_NAME, item.getName());
+                intent.putExtra(Itemgallery.ITEM_IMAGE_ID, item.getImageId());
+                mContext.startActivity(intent);
+            }
+        });
+        return holder;
     }
 
     @Override

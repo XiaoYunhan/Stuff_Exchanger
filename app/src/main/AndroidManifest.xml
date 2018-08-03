@@ -19,7 +19,8 @@
         <activity android:name=".Login" />
         <activity android:name=".Signup" />
         <activity android:name=".Chat" />
-        <activity android:name=".Itemgallery" />
+        <activity android:name=".Itemgallery"
+            android:theme="@style/ItemgalleryTheme"/>
         <activity android:name=".Upload_item"></activity>
     </application>
 
